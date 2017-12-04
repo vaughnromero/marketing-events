@@ -10,8 +10,10 @@
                 <element label="Duplicate" sequence="4" value="duplicate"/>
             </choice>
         </element>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element label="Attendees" max_length="40" name="attendees" type="integer"/>
         <element label="Budget" max_length="20" name="budget" type="currency"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
         <element label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Name" max_length="40" name="name" type="string"/>
@@ -20,6 +22,9 @@
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="location"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
         </index>
     </element>
 </database>

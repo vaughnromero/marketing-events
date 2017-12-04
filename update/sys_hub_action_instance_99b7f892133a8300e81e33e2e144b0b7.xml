@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Approve Marketing Events">d5d67012133a8300e81e33e2e144b0ba</flow>
+        <order>2.1</order>
+        <parent_ui_id>1a33e92c-2577-45b6-b297-d80c654a22fa</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>99b7f892133a8300e81e33e2e144b0b7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Events" source="x_marketing_events">23a1789613f68300e81e33e2e144b0bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Events">23a1789613f68300e81e33e2e144b0bf</sys_scope>
+        <sys_update_name>sys_hub_action_instance_99b7f892133a8300e81e33e2e144b0b7</sys_update_name>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:15</sys_updated_on>
+        <ui_id>88b3583a-a693-4f6c-a6f6-8626c45e1812</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=99b7f892133a8300e81e33e2e144b0b7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99b7f892133a8300e81e33e2e144b0b7</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>15b7f892133a8300e81e33e2e144b0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <value/>
+        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99b7f892133a8300e81e33e2e144b0b7</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:15</sys_created_on>
+        <sys_id>29b7f892133a8300e81e33e2e144b0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:15</sys_updated_on>
+        <value/>
+        <variable display_value="">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99b7f892133a8300e81e33e2e144b0b7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>51b7f892133a8300e81e33e2e144b0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99b7f892133a8300e81e33e2e144b0b7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:15</sys_created_on>
+        <sys_id>65b7f892133a8300e81e33e2e144b0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:15</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99b7f892133a8300e81e33e2e144b0b7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>99b7f892133a8300e81e33e2e144b0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <value>x_marketing_events_scheduled_events</value>
+        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99b7f892133a8300e81e33e2e144b0b7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:15</sys_created_on>
+        <sys_id>adb7f892133a8300e81e33e2e144b0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:15</sys_updated_on>
+        <value>x_marketing_events_scheduled_events</value>
+        <variable display_value="">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99b7f892133a8300e81e33e2e144b0b7</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>d5b7f892133a8300e81e33e2e144b0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <value>ApprovesAny</value>
+        <variable display_value="">a2d2a9920b10030085c083eb37673ace</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99b7f892133a8300e81e33e2e144b0b7</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:15</sys_created_on>
+        <sys_id>e9b7f892133a8300e81e33e2e144b0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:15</sys_updated_on>
+        <value>ApprovesAny</value>
+        <variable display_value="">45f2e9920b10030085c083eb37673aee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=99b7f892133a8300e81e33e2e144b0b7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>99b7f892133a8300e81e33e2e144b0b7</id>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>1db7f892133a8300e81e33e2e144b0c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>99b7f892133a8300e81e33e2e144b0b7</id>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:15</sys_created_on>
+        <sys_id>21b7f892133a8300e81e33e2e144b0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>99b7f892133a8300e81e33e2e144b0b7</id>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>d1b7f892133a8300e81e33e2e144b0c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>99b7f892133a8300e81e33e2e144b0b7</id>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:15</sys_created_on>
+        <sys_id>e5b7f892133a8300e81e33e2e144b0dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>99b7f892133a8300e81e33e2e144b0b7</id>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>59b7f892133a8300e81e33e2e144b0c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>99b7f892133a8300e81e33e2e144b0b7</id>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:15</sys_created_on>
+        <sys_id>6db7f892133a8300e81e33e2e144b0dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>99b7f892133a8300e81e33e2e144b0b7</id>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>95b7f892133a8300e81e33e2e144b0c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>99b7f892133a8300e81e33e2e144b0b7</id>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:15</sys_created_on>
+        <sys_id>a9b7f892133a8300e81e33e2e144b0dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>99b7f892133a8300e81e33e2e144b0b7</id>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>ddb7f892133a8300e81e33e2e144b0c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>99b7f892133a8300e81e33e2e144b0b7</id>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:15</sys_created_on>
+        <sys_id>e1b7f892133a8300e81e33e2e144b0dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">91b7f892133a8300e81e33e2e144b0cb</block>
+        <connected_to>47897d71-16c6-44d9-93c0-839b6a2b9c52</connected_to>
+        <display_text/>
+        <flow display_value="Approve Marketing Events">d5d67012133a8300e81e33e2e144b0ba</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>a5b7f892133a8300e81e33e2e144b0cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Events" source="x_marketing_events">23a1789613f68300e81e33e2e144b0bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Events">23a1789613f68300e81e33e2e144b0bf</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_a5b7f892133a8300e81e33e2e144b0cc</sys_update_name>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <ui_id>1a33e92c-2577-45b6-b297-d80c654a22fa</ui_id>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a5b7f892133a8300e81e33e2e144b0cc"/>
+</record_update>

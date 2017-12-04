@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>Approve marketing events under $500</description>
+        <label_cache>[{"name":"Created or Updated_1.current.budget","label":"Trigger➛Scheduled Events Record➛Budget","reference":"","reference_display":"Budget","type":"currency","base_type":"currency","parent_table_name":"x_marketing_events_scheduled_events","column_name":"budget"},{"name":"Created or Updated_1.current","label":"Trigger➛Scheduled Events Record","reference":"x_marketing_events_scheduled_events","reference_display":"Scheduled Events","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot/>
+        <name>Approve Marketing Events</name>
+        <show_draft_actions>false</show_draft_actions>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:52:24</sys_created_on>
+        <sys_id>d5d67012133a8300e81e33e2e144b0ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Approve Marketing Events</sys_name>
+        <sys_package display_value="Marketing Events" source="x_marketing_events">23a1789613f68300e81e33e2e144b0bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Events">23a1789613f68300e81e33e2e144b0bf</sys_scope>
+        <sys_update_name>sys_hub_flow_d5d67012133a8300e81e33e2e144b0ba</sys_update_name>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:13</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

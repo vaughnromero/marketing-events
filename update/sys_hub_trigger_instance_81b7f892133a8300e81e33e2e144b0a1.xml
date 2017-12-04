@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_trigger_instance">
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <display_text/>
+        <flow display_value="Approve Marketing Events">d5d67012133a8300e81e33e2e144b0ba</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:13</sys_created_on>
+        <sys_id>81b7f892133a8300e81e33e2e144b0a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>record_create_or_update</sys_name>
+        <sys_package display_value="Marketing Events" source="x_marketing_events">23a1789613f68300e81e33e2e144b0bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Events">23a1789613f68300e81e33e2e144b0bf</sys_scope>
+        <sys_update_name>sys_hub_trigger_instance_81b7f892133a8300e81e33e2e144b0a1</sys_update_name>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:13</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=81b7f892133a8300e81e33e2e144b0a1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>81b7f892133a8300e81e33e2e144b0a1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:13</sys_created_on>
+        <sys_id>51b7f892133a8300e81e33e2e144b0a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:13</sys_updated_on>
+        <value>always</value>
+        <variable display_value="">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>81b7f892133a8300e81e33e2e144b0a1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:13</sys_created_on>
+        <sys_id>5db7f892133a8300e81e33e2e144b0a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:13</sys_updated_on>
+        <value>x_marketing_events_scheduled_events</value>
+        <variable display_value="">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>81b7f892133a8300e81e33e2e144b0a1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:13</sys_created_on>
+        <sys_id>99b7f892133a8300e81e33e2e144b0a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:13</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+</record_update>

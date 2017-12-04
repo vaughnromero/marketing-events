@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d1b7f892133a8300e81e33e2e144b0af</block>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Approve Marketing Events">d5d67012133a8300e81e33e2e144b0ba</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>5db7f892133a8300e81e33e2e144b0b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Events" source="x_marketing_events">23a1789613f68300e81e33e2e144b0bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Events">23a1789613f68300e81e33e2e144b0bf</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_5db7f892133a8300e81e33e2e144b0b0</sys_update_name>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <ui_id>47897d71-16c6-44d9-93c0-839b6a2b9c52</ui_id>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5db7f892133a8300e81e33e2e144b0b0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5db7f892133a8300e81e33e2e144b0b0</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:56:14</sys_created_on>
+        <sys_id>d1b7f892133a8300e81e33e2e144b0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:56:14</sys_updated_on>
+        <value>{{Created or Updated_1.current.budget}}&lt;500</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>
