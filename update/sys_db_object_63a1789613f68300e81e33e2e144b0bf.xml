@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>true</is_extendable>
+        <label>Scheduled Events</label>
+        <live_feed_enabled>true</live_feed_enabled>
+        <name>x_marketing_events_scheduled_events</name>
+        <number_ref display_value="MRKEVENT">2cb1381a13f68300e81e33e2e144b07a</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>vaughn.romero</sys_created_by>
+        <sys_created_on>2017-12-04 22:29:55</sys_created_on>
+        <sys_id>63a1789613f68300e81e33e2e144b0bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Scheduled Events</sys_name>
+        <sys_package display_value="Marketing Events" source="x_marketing_events">23a1789613f68300e81e33e2e144b0bf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Events">23a1789613f68300e81e33e2e144b0bf</sys_scope>
+        <sys_update_name>sys_db_object_63a1789613f68300e81e33e2e144b0bf</sys_update_name>
+        <sys_updated_by>vaughn.romero</sys_updated_by>
+        <sys_updated_on>2017-12-04 22:29:57</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_marketing_events.user" name="x_marketing_events.user">77a1f41a13f68300e81e33e2e144b0f5</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>
