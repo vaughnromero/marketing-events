@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element attributes="live_feed=true" label="Scheduled Events" max_length="40" name="x_marketing_events_scheduled_events" type="collection">
+        <element choice="3" label="Approval" max_length="40" name="approval" type="choice">
+            <choice>
+                <element label="Not yet request" sequence="0" value="not requested"/>
+                <element label="Requested" sequence="1" value="requested"/>
+                <element label="Approved" sequence="2" value="approved"/>
+                <element label="Rejected" sequence="3" value="rejected"/>
+                <element label="Duplicate" sequence="4" value="duplicate"/>
+            </choice>
+        </element>
+        <element label="Attendees" max_length="40" name="attendees" type="integer"/>
+        <element label="Budget" max_length="20" name="budget" type="currency"/>
+        <element label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
     </element>
 </database>
